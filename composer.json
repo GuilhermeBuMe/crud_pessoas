@@ -1,0 +1,17 @@
+{
+    "license": "proprietary",
+    "name": "guilherme/crud_pessoa",
+    "type": "project",
+    "version": "1.0.0",
+    "require": {
+        "nyholm/psr7": "1.*",
+        "nyholm/psr7-server": "1.*",
+        "league/plates": "3.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "GuilhermeBM\\CrudPessoa\\": "src/",
+            "GuilhermeBM\\CrudPessoa\\Config\\": "config/"
+        }
+    }
+}
